@@ -29,10 +29,10 @@ All analysis reads from just two files, both with a single consistent
 convention (air temperature in °C; every sensible heat flux in W/m², positive
 upward; one QC'd instrument population):
 
-| File | Rows | Units | Description |
-|---|---|---|---|
-| `data/spotter_hourly_master.csv` | 1,015,447 | 255 | Hourly 2022 + 2023, Spotter + ERA5, with a `year` column. Drives the residual figures, the NN air-temperature figure, and the map. |
-| `data/spotter_daily_2022_master.csv` | 11,261 | 166 | Daily-averaged 2022, OAFlux-collocated. Drives the ETC table and the air-temperature / heat-flux evaluation scatters. |
+| File                               | Rows | Units | Description |
+|------------------------------------|---|---|---|
+| `data/spotter_hourly_full.csv`     | 1,015,447 | 255 | Hourly 2022 + 2023, Spotter + ERA5, with a `year` column. Drives the residual figures, the NN air-temperature figure, and the map. |
+| `data/spotter_daily_2022_full.csv` | 11,261 | 166 | Daily-averaged 2022, OAFlux-collocated. Drives the ETC table and the air-temperature / heat-flux evaluation scatters. |
 
 The `data/` folder is not tracked in git because of
 its size. You can access the source data files from Dropbox
