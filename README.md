@@ -11,7 +11,8 @@ temperature and sensible heat flux against ERA5 and OAFlux using Extended
 Triple Collocation (ETC), then proposes a data-driven (neural-network)
 improvement.
 
-This repository and documentation is largely AI-generated. 
+This repository and documentation is largely AI-generated from a much 
+messier source code repository. 
 
 ## Layout
 
@@ -34,7 +35,8 @@ upward; one QC'd instrument population):
 | `data/spotter_daily_2022_master.csv` | 11,261 | 166 | Daily-averaged 2022, OAFlux-collocated. Drives the ETC table and the air-temperature / heat-flux evaluation scatters. |
 
 The `data/` folder is not tracked in git because of
-its size. You can access the source data files from Dropbox:
+its size. You can access the source data files from Dropbox
+at [this link](https://www.dropbox.com/scl/fo/4sx64z60e4lgmr8uslfhk/AAyU0zznILtM5AJ5VDPxlBU?rlkey=nfx6k1d1kjqc7a98splqjz9tw&st=kahwqgwa&dl=0)
 
 
 
