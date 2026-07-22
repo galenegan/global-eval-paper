@@ -1,0 +1,35 @@
+# Data (distributed separately; too large for git)
+data/*.csv
+
+# Generated figures
+figures/*.png
+
+# Dataset generation
+scripts/build_full_datasets.py
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# macOS
+.DS_Store
+
+# AI
+CLAUDE.md
+CHANGES_VS_MANUSCRIPT.md
+DATA_DICTIONARY.md
+
+# Environments
+.venv/
+venv/
+env/
+.Python
+build/
+dist/
+*.egg-info/
+
+# IDE
+.idea/
+.vscode/
+.ruff_cache/
